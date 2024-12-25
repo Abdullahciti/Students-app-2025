@@ -4,9 +4,9 @@ const cors = require("cors");
 require("dotenv").config();
 const morgan = require("morgan");
 const winston = require("winston");
-const username = encodeURIComponent("abdullahciti");
-const password = encodeURIComponent("abdullahcitii");
-let uri = `mongodb+srv://${username}:${password}@cluster0.dzb2b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+// const username = encodeURIComponent("abdullahciti");
+// const password = encodeURIComponent("abdullahcitii");
+let uri = `mongodb+srv://abdullahciti:abdullahcitii@cluster0.dzb2b.mongodb.net/student-management-app?retryWrites=true&w=majority&appName=Cluster0`;
 
 const app = express();
 
@@ -22,14 +22,10 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose
-  .connect(
-    process.env.MONGODB_URI ||
-      uri,
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    }
-  )
+  .connect(process.env.MONGODB_URI || uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
