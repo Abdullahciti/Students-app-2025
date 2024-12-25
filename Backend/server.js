@@ -13,7 +13,7 @@ const app = express();
 app.use(cors(
   {
   origin: ["https://students-app-2025.vercel.app/"],
-  methods: ["POST", "GET"],
+  methods: ["POST", "GET", "PATCH", "DELETE"],
   credentials: true
 }
 ));
