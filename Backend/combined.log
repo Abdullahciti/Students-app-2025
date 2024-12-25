@@ -9651,3 +9651,23 @@
 {"level":"info","message":{"duration":"3ms","method":"GET","path":"/api/health","query":{},"status":404},"timestamp":"2024-12-25T17:20:14.361Z"}
 {"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:20:18.936Z"}
 {"level":"info","message":{"duration":"67ms","method":"GET","params":{},"path":"/api/students/","query":{},"status":200},"timestamp":"2024-12-25T17:20:18.943Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:34:34.035Z"}
+{"level":"info","message":{"duration":"287ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:34:34.078Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:34:34.122Z"}
+{"level":"info","message":{"duration":"55ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:34:34.139Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:16.416Z"}
+{"level":"info","message":{"duration":"293ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:16.425Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:45.882Z"}
+{"level":"info","message":{"duration":"149ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:45.890Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:46.862Z"}
+{"level":"info","message":{"duration":"58ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:46.882Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:46.940Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:46.944Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:51.922Z"}
+{"level":"info","message":{"duration":"42ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:51.929Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:52.352Z"}
+{"level":"info","message":{"duration":"69ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:52.357Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:52.414Z"}
+{"level":"info","message":{"duration":"61ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:52.420Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:37:53.313Z"}
+{"level":"info","message":{"duration":"87ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:37:53.328Z"}

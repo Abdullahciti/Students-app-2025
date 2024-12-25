@@ -39,7 +39,7 @@ const Cards = ({ baseUrl }) => {
           <Card
             icon={<FaGraduationCap />}
             text={"Graduated"}
-            value={`${gradStudents} from ${students.length}`}
+            value={`${Math.round(gradStudents)} from ${students.length}`}
           />
           <Card
             icon={<ImStatsDots />}
