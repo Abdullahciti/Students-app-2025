@@ -9641,3 +9641,13 @@
 {"level":"info","message":{"duration":"68ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:03:10.885Z"}
 {"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:03:10.932Z"}
 {"level":"info","message":{"duration":"52ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:03:10.948Z"}
+{"level":"info","message":{"duration":"152ms","method":"GET","path":"/api","query":{},"status":404},"timestamp":"2024-12-25T17:19:24.375Z"}
+{"level":"info","message":{"duration":"19ms","method":"GET","path":"/api","query":{},"status":404},"timestamp":"2024-12-25T17:19:41.339Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:19:45.258Z"}
+{"level":"info","message":{"duration":"161ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:19:45.338Z"}
+{"level":"info","message":"Retrieved 0 courses successfully","timestamp":"2024-12-25T17:20:04.674Z"}
+{"level":"info","message":{"duration":"69ms","method":"GET","params":{},"path":"/api/courses/","query":{},"status":304},"timestamp":"2024-12-25T17:20:04.681Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","path":"/api//","query":{},"status":404},"timestamp":"2024-12-25T17:20:08.536Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","path":"/api/health","query":{},"status":404},"timestamp":"2024-12-25T17:20:14.361Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:20:18.936Z"}
+{"level":"info","message":{"duration":"67ms","method":"GET","params":{},"path":"/api/students/","query":{},"status":200},"timestamp":"2024-12-25T17:20:18.943Z"}
