@@ -10,14 +10,14 @@ let uri = `mongodb+srv://abdullahciti:abdullahcitii@cluster0.dzb2b.mongodb.net/s
 
 const app = express();
 
-// app.use(cors(
-//   {
-//   origin: ["https://students-app-2025.vercel.app/"],
-//   methods: ["POST", "GET"],
-//   credentials: true
-// }
-// ));
-app.use(cors());
+app.use(cors(
+  {
+  origin: ["https://students-app-2025.vercel.app/"],
+  methods: ["POST", "GET"],
+  credentials: true
+}
+));
+
 app.use(express.json());
 app.use(express.static("public"));
 

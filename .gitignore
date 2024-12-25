@@ -2,8 +2,8 @@
 logs
 *.log
 npm-debug.log*
-error.log*
-combined.log*
+Backend/error.log
+Backend/combined.log
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*

@@ -9486,3 +9486,158 @@
 {"level":"info","message":{"duration":"144ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-24T21:33:14.523Z"}
 {"level":"info","message":{"body":{"course":"English","email":"jpetkovic2@ustream.tv","enrollmentDate":"2023-11-01T00:00:00.000Z","name":"Jocelyn Petkovic","status":"active"},"duration":"5ms","method":"PATCH","path":"/api/students/672b9073584f6572f55a3bcf","query":{},"status":404},"timestamp":"2024-12-24T21:33:16.317Z"}
 {"level":"info","message":{"body":{"course":"English","email":"jpetkovic2@ustream.tv","enrollmentDate":"2023-11-01T00:00:00.000Z","name":"Jocelyn Petkovic","status":"active"},"duration":"2ms","method":"PATCH","path":"/api/students/672b9073584f6572f55a3bcf","query":{},"status":404},"timestamp":"2024-12-24T21:34:39.495Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:36:20.716Z"}
+{"level":"info","message":{"duration":"124ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T16:36:20.744Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:36:20.781Z"}
+{"level":"info","message":{"duration":"37ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:36:20.786Z"}
+{"level":"info","message":{"duration":"27ms","method":"GET","path":"/favicon.ico","query":{},"status":404},"timestamp":"2024-12-25T16:38:21.859Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.096Z"}
+{"level":"info","message":{"duration":"1578ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.114Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.166Z"}
+{"level":"info","message":{"duration":"47ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.172Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.318Z"}
+{"level":"info","message":{"duration":"147ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.326Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.373Z"}
+{"level":"info","message":{"duration":"43ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.380Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.436Z"}
+{"level":"info","message":{"duration":"56ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.446Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.487Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.494Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.543Z"}
+{"level":"info","message":{"duration":"47ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.546Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:40.585Z"}
+{"level":"info","message":{"duration":"39ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:40.589Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:41.585Z"}
+{"level":"info","message":{"duration":"64ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:41.594Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:41.645Z"}
+{"level":"info","message":{"duration":"67ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:41.666Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:46.333Z"}
+{"level":"info","message":{"duration":"210ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:46.340Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:46.538Z"}
+{"level":"info","message":{"duration":"200ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:46.544Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:46.641Z"}
+{"level":"info","message":{"duration":"97ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:46.647Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:46.700Z"}
+{"level":"info","message":{"duration":"55ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:46.706Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:46.746Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:46.752Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:41:46.799Z"}
+{"level":"info","message":{"duration":"47ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:41:46.806Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:04.819Z"}
+{"level":"info","message":{"duration":"72ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:04.827Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:04.900Z"}
+{"level":"info","message":{"duration":"54ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:04.906Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:06.402Z"}
+{"level":"info","message":{"duration":"665ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:06.411Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:06.467Z"}
+{"level":"info","message":{"duration":"61ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:06.480Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:06.521Z"}
+{"level":"info","message":{"duration":"43ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:06.528Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:06.568Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:06.574Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:06.611Z"}
+{"level":"info","message":{"duration":"35ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:06.615Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:06.653Z"}
+{"level":"info","message":{"duration":"36ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:06.657Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:07.907Z"}
+{"level":"info","message":{"duration":"67ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:07.915Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:42:07.959Z"}
+{"level":"info","message":{"duration":"40ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:07.963Z"}
+{"course":"Physic","level":"info","message":"New student created:","name":"Abdullah Arafa","studentId":"676c35e76e5fb13679486fd4","timestamp":"2024-12-25T16:42:15.219Z"}
+{"level":"info","message":{"body":{"course":"Physic","email":"abdullahciti@gmx.de","enrollmentDate":"2024-12-25T16:42:09.287Z","name":"Abdullah Arafa","status":""},"duration":"192ms","method":"POST","params":{},"path":"/api/students","query":{},"status":201},"timestamp":"2024-12-25T16:42:15.232Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:42:15.611Z"}
+{"level":"info","message":{"duration":"435ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T16:42:15.765Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:42:15.823Z"}
+{"level":"info","message":{"duration":"46ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:15.830Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:42:40.651Z"}
+{"level":"info","message":{"duration":"171ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:42:40.661Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:02.344Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:02.351Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:02.388Z"}
+{"level":"info","message":{"duration":"57ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:02.413Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:02.482Z"}
+{"level":"info","message":{"duration":"54ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:02.490Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:02.540Z"}
+{"level":"info","message":{"duration":"43ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:02.549Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:02.605Z"}
+{"level":"info","message":{"duration":"60ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:02.631Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:02.720Z"}
+{"level":"info","message":{"duration":"60ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:02.744Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:32.261Z"}
+{"level":"info","message":{"duration":"42ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:32.271Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:32.327Z"}
+{"level":"info","message":{"duration":"58ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:32.349Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:36.113Z"}
+{"level":"info","message":{"duration":"115ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:36.124Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:36.177Z"}
+{"level":"info","message":{"duration":"54ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:36.183Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:36.270Z"}
+{"level":"info","message":{"duration":"154ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:36.359Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:36.399Z"}
+{"level":"info","message":{"duration":"40ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:36.405Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:36.451Z"}
+{"level":"info","message":{"duration":"46ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:36.458Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2024-12-25T16:43:36.519Z"}
+{"level":"info","message":{"duration":"60ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T16:43:36.524Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2024-12-25T16:51:58.487Z"}
+{"level":"info","message":{"duration":"94ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T16:51:58.498Z"}
+{"level":"info","message":{"duration":"39ms","method":"GET","path":"/api//health/detailed","query":{},"status":404},"timestamp":"2024-12-25T16:56:48.273Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","path":"/api/health/detailed","query":{},"status":404},"timestamp":"2024-12-25T16:56:52.663Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","path":"/api/health","query":{},"status":404},"timestamp":"2024-12-25T16:56:58.881Z"}
+{"level":"info","message":{"duration":"20ms","method":"GET","params":{},"path":"/health","query":{},"status":200},"timestamp":"2024-12-25T16:57:03.230Z"}
+{"level":"info","message":{"duration":"11ms","method":"GET","params":{},"path":"/health/detailed","query":{},"status":200},"timestamp":"2024-12-25T16:57:16.531Z"}
+{"level":"info","message":{"duration":"56ms","method":"GET","params":{},"path":"/health/detailed","query":{},"status":200},"timestamp":"2024-12-25T17:02:31.222Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:32.126Z"}
+{"level":"info","message":{"duration":"144ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:02:32.132Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:32.169Z"}
+{"level":"info","message":{"duration":"45ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:32.181Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:32.229Z"}
+{"level":"info","message":{"duration":"47ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:32.235Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:32.272Z"}
+{"level":"info","message":{"duration":"38ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:32.277Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:32.326Z"}
+{"level":"info","message":{"duration":"42ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:32.333Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:32.380Z"}
+{"level":"info","message":{"duration":"40ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:32.385Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:36.381Z"}
+{"level":"info","message":{"duration":"115ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:36.422Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:36.490Z"}
+{"level":"info","message":{"duration":"58ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:36.498Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:37.738Z"}
+{"level":"info","message":{"duration":"64ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:37.744Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:37.783Z"}
+{"level":"info","message":{"duration":"39ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:37.787Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:37.825Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:37.833Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:37.872Z"}
+{"level":"info","message":{"duration":"42ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:37.879Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:37.920Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:37.928Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:37.967Z"}
+{"level":"info","message":{"duration":"49ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:37.982Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:38.383Z"}
+{"level":"info","message":{"duration":"71ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:38.398Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:38.442Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:38.447Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:43.500Z"}
+{"level":"info","message":{"duration":"64ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:43.505Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:43.551Z"}
+{"level":"info","message":{"duration":"48ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:43.557Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:43.604Z"}
+{"level":"info","message":{"duration":"38ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:43.609Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:43.648Z"}
+{"level":"info","message":{"duration":"67ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:43.678Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:43.720Z"}
+{"level":"info","message":{"duration":"41ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:43.726Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:43.781Z"}
+{"level":"info","message":{"duration":"45ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:43.785Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:45.777Z"}
+{"level":"info","message":{"duration":"91ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:45.782Z"}
+{"level":"info","message":"Retrieved 6 students successfully","timestamp":"2024-12-25T17:02:45.838Z"}
+{"level":"info","message":{"duration":"42ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:02:45.842Z"}
+{"course":"French","level":"info","message":"New student created:","name":"wdd","studentId":"676c3ace7e808b61f0c9d04a","timestamp":"2024-12-25T17:03:10.754Z"}
+{"level":"info","message":{"body":{"course":"French","email":"wdd@gmx.de","enrollmentDate":"2024-12-25T17:02:48.035Z","name":"wdd","status":""},"duration":"71ms","method":"POST","params":{},"path":"/api/students","query":{},"status":201},"timestamp":"2024-12-25T17:03:10.759Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:03:10.867Z"}
+{"level":"info","message":{"duration":"68ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2024-12-25T17:03:10.885Z"}
+{"level":"info","message":"Retrieved 7 students successfully","timestamp":"2024-12-25T17:03:10.932Z"}
+{"level":"info","message":{"duration":"52ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2024-12-25T17:03:10.948Z"}
