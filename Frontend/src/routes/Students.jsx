@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
-import useAxiosFetch from "../hooks/useAxiosFetch";
 import SingelStudent from "../routes/students/SingelStudent";
 import Btns from "../routes/students/Btns";
 import Header from "../Header";
+
+// انا عملت ملف الكونتكست بس وجطيتها اب تحت .
+import useAxiosFetch from "../hooks/useAxiosFetch";
+import { DataProvider } from "../context/StudentsContext";
 
 const Students = ({ baseUrl }) => {
   const [showPopup, setShowPopup] = useState(false);
@@ -38,41 +41,49 @@ const Students = ({ baseUrl }) => {
     if (showPopup) {
       setTimeout(() => {
         setShowPopup(false);
-      }, 4000);
+      }, 2000);
     }
   }, [showPopup]);
 
   return (
     <div className="max-w-full">
-      <Header searchValue={searchValue} setSearchValue={setSearchValue} />
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
-        {isLoading && (
+      <DataProvider>
+        <Header searchValue={searchValue} setSearchValue={setSearchValue} />
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
+          {isLoading && (
+            <h1 className="w-full py-20 text-xl font-semibold text-center">
+              Loading...
+            </h1>
+          )}
+          {fetchError && (
+            <h1 className="w-full py-20 text-xl font-semibold text-center">
+              {fetchError}
+            </h1>
+          )}
+          {!isLoading &&
+            !fetchError &&
+            searchedItems &&
+            searchedItems.map((student, index) => (
+              <SingelStudent
+                key={student._id}
+                index={index}
+                baseUrl={baseUrl}
+                student={student}
+                setCheckedItems={setCheckedItems}
+                showPopup={showPopup}
+                popupText={popupText}
+                setShowPopup={setShowPopup}
+                setPopupText={setPopupText}
+              />
+            ))}
+        </div>
+        {!isLoading && !students.length && (
           <h1 className="w-full py-20 text-xl font-semibold text-center">
-            Loading...
+            There are no registerd students please add one!
           </h1>
         )}
-        {fetchError && (
-          <h1 className="w-full py-20 text-xl font-semibold text-center">
-            {fetchError}
-          </h1>
-        )}
-        {!isLoading &&
-          !fetchError &&
-          searchedItems.map((student, index) => (
-            <SingelStudent
-              key={student._id}
-              index={index}
-              baseUrl={baseUrl}
-              student={student}
-              setCheckedItems={setCheckedItems}
-              showPopup={showPopup}
-              popupText={popupText}
-              setShowPopup={setShowPopup}
-              setPopupText={setPopupText}
-            />
-          ))}
-      </div>
-      <Btns checkedItems={checkedItems} />
+        <Btns checkedItems={checkedItems} />
+      </DataProvider>
     </div>
   );
 };

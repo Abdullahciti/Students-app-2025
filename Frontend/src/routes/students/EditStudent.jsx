@@ -15,7 +15,7 @@ const EditStudent = ({
   const [email, setEmail] = useState("");
   const [course, setCourse] = useState("");
   const [enrollmentDate, setEnrollmentData] = useState("");
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState(null);
 
   // Populate fields when the component is mounted or when student changes
   useEffect(() => {
@@ -23,23 +23,20 @@ const EditStudent = ({
       setName(student.name || "");
       setEmail(student.email || "");
       setCourse(student.course || "");
-      setEnrollmentData(student.enrollmentDate || "");
-      setStatus(student.status || "");
+      setEnrollmentData(student.enrollmentDate || new Date());
+      setStatus(student.status || false);
     }
   }, [student]);
 
   const handleSave = async () => {
     try {
-      const response = await axios.patch(
-        `${baseUrl}/${student._id}`,
-        {
-          name,
-          email,
-          course,
-          enrollmentDate,
-          status,
-        }
-      );
+      const response = await axios.patch(`${baseUrl}/students/${student._id}`, {
+        name,
+        email,
+        course,
+        enrollmentDate,
+        status,
+      });
       if (response.status === 200) {
         setShowPopup(true);
         console.log("Student updated successfully:", response.data);
@@ -48,6 +45,7 @@ const EditStudent = ({
       }
     } catch (err) {
       setShowPopup(true);
+      console.log("Student updated falsey:", err);
       setPopupText(`user didn\`t update cuz of this error ${err.message}`);
       console.error("Error updating student:", err.message);
     }
@@ -106,18 +104,6 @@ const EditStudent = ({
             id="enrollmentDate"
             value={enrollmentDate}
             onChange={(e) => setEnrollmentData(e.target.value)}
-          />
-        </div>
-        <div className="flex items-center">
-          <span className="font-medium text-gray-600 w-1/3">Status:</span>
-          <input
-            className="text-gray-800 bg-gray-100 p-2 rounded w-2/3"
-            type="text"
-            aria-label="status"
-            id="status"
-            placeholder="Enter status"
-            value={status}
-            onChange={(e) => setStatus(e.target.value)}
           />
         </div>
       </div>

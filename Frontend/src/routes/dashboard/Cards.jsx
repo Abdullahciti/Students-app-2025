@@ -39,12 +39,20 @@ const Cards = ({ baseUrl }) => {
           <Card
             icon={<FaGraduationCap />}
             text={"Graduated"}
-            value={`${Math.round(gradStudents)} from ${students.length}`}
+            value={
+              gradStudents == 0
+                ? 0
+                : `${Math.round(gradStudents)} from ${students.length}`
+            }
           />
           <Card
             icon={<ImStatsDots />}
             text={"succeed"}
-            value={`${Math.round((gradStudents / students.length) * 100)}%`}
+            value={
+              gradStudents == 0
+                ? 0
+                : `${Math.round((gradStudents / students.length) * 100)}%`
+            }
           />
           <RecentStudents baseUrl={baseUrl} />
         </>

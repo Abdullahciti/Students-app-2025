@@ -36,12 +36,6 @@ const Student = ({ student, index, setConfirmation, setEditData }) => {
             })}
           </span>
         </div>
-        <div className="flex items-center">
-          <span className="font-medium text-gray-600 w-1/3">Status:</span>
-          <span className="text-gray-800 bg-gray-100 p-2 rounded w-2/3">
-            {student.status}
-          </span>
-        </div>
       </div>
       <div className="mt-4 flex items-center justify-end gap-3">
         <button

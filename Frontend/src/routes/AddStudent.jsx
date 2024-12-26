@@ -3,9 +3,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import PopupMessage from "../components/PopupMessage";
 
 const AddStudent = ({ baseUrl }) => {
   const navigate = useNavigate();
+
+  const [show, setShow] = useState(false);
+  const [showText, setShowText] = useState("");
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -24,10 +28,14 @@ const AddStudent = ({ baseUrl }) => {
         enrollmentDate,
       });
       if (response.status === 201) {
-        navigate("/students");
+        setShow(true);
+        setShowText("The new Student is created");
       }
     } catch (err) {
       console.log(err);
+      setShowText(err.message);
+    } finally {
+      navigate("/students");
     }
   };
 
@@ -96,6 +104,7 @@ const AddStudent = ({ baseUrl }) => {
           Add
         </button>
       </div>
+      {show && <PopupMessage popupText={showText} />}
     </form>
   );
 };

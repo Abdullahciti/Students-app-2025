@@ -4,19 +4,11 @@ const cors = require("cors");
 require("dotenv").config();
 const morgan = require("morgan");
 const winston = require("winston");
-// const username = encodeURIComponent("abdullahciti");
-// const password = encodeURIComponent("abdullahcitii");
 let uri = `mongodb+srv://abdullahciti:abdullahcitii@cluster0.dzb2b.mongodb.net/student-management-app?retryWrites=true&w=majority&appName=Cluster0`;
 
 const app = express();
 
-app.use(cors(
-  {
-  origin: ["https://students-app-2025.vercel.app/"],
-  methods: ["POST", "GET", "PATCH", "DELETE"],
-  credentials: true
-}
-));
+app.use(cors());
 
 app.use(express.json());
 app.use(express.static("public"));
@@ -104,7 +96,7 @@ const studentSchema = new mongoose.Schema(
     },
     enrollmentDate: {
       type: Date,
-      // required: true,
+      required: true,
     },
   },
   {
