@@ -1,17 +1,12 @@
 /* eslint-disable react/prop-types */
 import Table from "./cards/Table";
-import useAxiosFetch from "../../hooks/useAxiosFetch";
 
-const RecentStudents = ({ baseUrl }) => {
-  // Destructure data, loading, and error from the useFetch hook
-  const {
-    data: students,
-    isLoading,
-    fetchError,
-  } = useAxiosFetch(`${baseUrl}/students`);
-
+// Components
+import RSHeader from "./recent students/RSHeader";
+const RecentStudents = ({ students, isLoading, fetchError }) => {
   return (
     <div className="w-full my-5 p-4 bg-white shadow-2xl rounded-xl lg:col-span-2 col-span-1">
+      <RSHeader />
       <div className="relative overflow-x-auto my-5 w-full">
         {isLoading && (
           <h1 className="w-full py-8 text-xl font-semibold text-center">

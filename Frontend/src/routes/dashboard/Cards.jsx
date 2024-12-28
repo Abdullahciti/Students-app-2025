@@ -22,39 +22,44 @@ const Cards = ({ baseUrl }) => {
 
   return (
     <div className="grid lg:grid-cols-2 grid-cols-1 w-full gap-10 gap-y-5">
+      <Card
+        icon={<IoIosPeople />}
+        text={"all students"}
+        value={students ? students.length : 0}
+      />
+      <Card
+        icon={<PiDiscDuotone />}
+        text={"active courses"}
+        value={activeCourses.length}
+      />
+      <Card
+        icon={<FaGraduationCap />}
+        text={"Graduated"}
+        value={
+          gradStudents == 0
+            ? 0
+            : `${Math.round(gradStudents)} from ${students.length}`
+        }
+      />
+      <Card
+        icon={<ImStatsDots />}
+        text={"succeed"}
+        value={
+          gradStudents == 0
+            ? 0
+            : `${Math.round((gradStudents / students.length) * 100)}%`
+        }
+      />
       {fetchError && <div>Loading...</div>}
       {isLoading && <div>Loading...</div>}
       {!fetchError && !isLoading && students && (
         <>
-          <Card
-            icon={<IoIosPeople />}
-            text={"all students"}
-            value={students ? students.length : 0}
+          <RecentStudents
+            baseUrl={baseUrl}
+            students={students}
+            fetchError={fetchError}
+            isLoading={isLoading}
           />
-          <Card
-            icon={<PiDiscDuotone />}
-            text={"active courses"}
-            value={activeCourses.length}
-          />
-          <Card
-            icon={<FaGraduationCap />}
-            text={"Graduated"}
-            value={
-              gradStudents == 0
-                ? 0
-                : `${Math.round(gradStudents)} from ${students.length}`
-            }
-          />
-          <Card
-            icon={<ImStatsDots />}
-            text={"succeed"}
-            value={
-              gradStudents == 0
-                ? 0
-                : `${Math.round((gradStudents / students.length) * 100)}%`
-            }
-          />
-          <RecentStudents baseUrl={baseUrl} />
         </>
       )}
     </div>

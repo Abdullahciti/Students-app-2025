@@ -1,8 +1,11 @@
-/* eslint-disable react/prop-types */
 import { FaUserCircle } from "react-icons/fa";
 import { IoMdSearch } from "react-icons/io";
+import { useContext } from "react";
+import StudentsContext from "./context/StudentsContext";
 
-const Header = ({ setSearchValue }) => {
+const Header = () => {
+  const { setSearchValue } = useContext(StudentsContext);
+
   return (
     <div
       className={`mb-6 bg-white p-4 rounded-lg shadow-xl flex items-center justify-between sm:flex-nowrap flex-wrap-reverse sm:h-auto h-32`}

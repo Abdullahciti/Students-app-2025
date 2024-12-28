@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`${width >= 1400 ? "w-3/12" : "w-3/12"} bg-altColor relative ${
+      className={`w-2/12 min-w-[200px] bg-altColor relative ${
         width <= 767 && "hidden"
       }`}
     >
@@ -32,7 +32,7 @@ const Navbar = () => {
         </h1>
         {/* sidebar menu */}
         <ul className="flex flex-col items-center w-full">
-          <li className="w-9/12 mx-auto">
+          <li className="w-11/12 mx-auto">
             <NavLink
               className={({ isActive }) =>
                 `mt-1 px-1.5 rounded-lg min-w-full text-xl py-2 flex items-center gap-2 mx-1.5 transition ${
@@ -46,7 +46,7 @@ const Navbar = () => {
               <MdDashboard /> Dashboard
             </NavLink>
           </li>
-          <li className="w-9/12 mx-auto">
+          <li className="w-11/12 mx-auto">
             <NavLink
               className={({ isActive }) =>
                 `mt-1 px-1.5 rounded-lg text-xl py-2 flex items-center gap-2 mx-1.5 transition ${
@@ -60,7 +60,7 @@ const Navbar = () => {
               <MdGroup /> Students
             </NavLink>
           </li>
-          <li className="w-9/12 mx-auto">
+          <li className="w-11/12 mx-auto">
             <NavLink
               className={({ isActive }) =>
                 `mt-1 px-1.5 rounded-lg text-xl py-2 flex items-center gap-2 mx-1.5 transition ${
@@ -74,7 +74,7 @@ const Navbar = () => {
               <SiCoursera /> Courses
             </NavLink>
           </li>
-          <li className="w-9/12 mx-auto">
+          <li className="w-11/12 mx-auto">
             <NavLink
               className={({ isActive }) =>
                 `mt-1 px-1.5 rounded-lg text-xl py-2 flex items-center gap-2 mx-1.5 transition ${
@@ -88,7 +88,7 @@ const Navbar = () => {
               <PiExamThin /> Exams
             </NavLink>
           </li>
-          <li className="w-9/12 mx-auto">
+          <li className="w-11/12 mx-auto">
             <NavLink
               to="/reports"
               className={({ isActive }) =>
@@ -102,7 +102,7 @@ const Navbar = () => {
               <TbReportSearch /> Reports
             </NavLink>
           </li>
-          <li className="w-9/12 mx-auto">
+          <li className="w-11/12 mx-auto">
             <NavLink
               className={({ isActive }) =>
                 `mt-1 px-1.5 rounded-lg text-xl py-2 flex items-center gap-2 mx-1.5 transition ${

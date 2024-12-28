@@ -1,19 +1,14 @@
-/* eslint-disable react/prop-types */
-import { FaPlus } from "react-icons/fa";
 
+import { FaUsers } from "react-icons/fa";
 
-const RSHeader = ({setAddStatus}) => {
-    return (
-        <div className="flex items-center justify-between">
-        <h1 className="py-6 font-extrabold text-lg">Recent Students</h1>
-        <button
-          onClick={() => setAddStatus(true)}
-          className="bg-activeColor text-white flex items-center p-4 rounded-xl gap-4 hover:bg-blue-950 active:scale-95 transition"
-        >
-          <FaPlus /> Add new student
-        </button>
-      </div>
-    );
-}
+const RSHeader = () => {
+  return (
+    <div className="flex items-center justify-between">
+      <h1 className="py-6 font-extrabold text-2xl flex items-center">
+        <FaUsers className="ml-1.5 mr-3" /> Recent Students
+      </h1>
+    </div>
+  );
+};
 
 export default RSHeader;

@@ -29,12 +29,6 @@ const Table = ({ students }) => {
           >
             Enrollment Date
           </th>
-          <th
-            scope="col"
-            className="px-6 py-3 border-r border-b border-[#7a797977]"
-          >
-            Status
-          </th>
         </tr>
       </thead>
       {students.length ? (
@@ -59,9 +53,6 @@ const Table = ({ students }) => {
                   month: "2-digit",
                   day: "2-digit",
                 })}
-              </td>
-              <td className="px-6 py-4 border-r border-[#7a797977]">
-                {item.status ? "active" : "inactive"}
               </td>
             </tr>
           </tbody>

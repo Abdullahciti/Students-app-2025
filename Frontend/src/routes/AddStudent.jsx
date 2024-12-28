@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PopupMessage from "../components/PopupMessage";
+import StudentsContext from "../context/StudentsContext";
 
 const AddStudent = ({ baseUrl }) => {
+  const { refetch } = useContext(StudentsContext);
   const navigate = useNavigate();
 
   const [show, setShow] = useState(false);
@@ -30,9 +32,10 @@ const AddStudent = ({ baseUrl }) => {
       if (response.status === 201) {
         setShow(true);
         setShowText("The new Student is created");
+        refetch();
+        navigate("/students");
       }
     } catch (err) {
-      console.log(err);
       setShowText(err.message);
     } finally {
       navigate("/students");
@@ -78,23 +81,6 @@ const AddStudent = ({ baseUrl }) => {
           className="w-full h-full p-1.5 py-3 my-1.5 col-span-1 outline-none bg-slate-300 border-none rounded-sm"
           required
         />
-      </div>
-      <div className="col-span-1 w-full h-fit my-1.5 p-6 bg-altColor rounded-md">
-        <h1>Status:</h1>
-        <select
-          required
-          id="status"
-          name="status"
-          aria-label="status"
-          className="w-full h-full p-1.5 py-3 my-1.5 col-span-1 outline-none bg-slate-300 border-none rounded-sm"
-        >
-          <option type="status" onChange={(e) => setStatus(e.target.value)}>
-            actvie
-          </option>
-          <option type="status" onChange={(e) => setStatus(e.target.value)}>
-            inactvie
-          </option>
-        </select>
       </div>
       <div className="col-span-2 flex w-full h-fit my-1.5 p-6 rounded-md justify-end">
         <button

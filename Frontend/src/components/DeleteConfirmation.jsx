@@ -1,8 +1,9 @@
-import { useEffect, useRef } from "react";
-
 /* eslint-disable react/prop-types */
-const DeleteConfirmation = ({ setConfirmation, handleDelete }) => {
-  const confirmRef = useRef(null);
+import { useContext, useEffect } from "react";
+import StudentsContext from "../context/StudentsContext";
+
+const DeleteConfirmation = ({ handleDelete }) => {
+  const { setConfirmation, confirmRef } = useContext(StudentsContext);
 
   const handleClick = (e) => {
     if (confirmRef && !confirmRef.current.contains(e.target)) {
