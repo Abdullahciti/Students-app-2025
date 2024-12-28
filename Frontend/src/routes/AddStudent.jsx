@@ -1,22 +1,17 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 import axios from "axios";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import PopupMessage from "../components/PopupMessage";
 import StudentsContext from "../context/StudentsContext";
 
-const AddStudent = ({ baseUrl }) => {
-  const { refetch } = useContext(StudentsContext);
+const AddStudent = () => {
+  const { baseUrl, refetch, setShowPopup, setPopupText } =
+    useContext(StudentsContext);
   const navigate = useNavigate();
-
-  const [show, setShow] = useState(false);
-  const [showText, setShowText] = useState("");
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [course, setCourse] = useState("");
-  const [status, setStatus] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const [enrollmentDate, setEnrollmentDate] = useState(new Date());
 
   const handleSubmit = async (e) => {
@@ -26,19 +21,17 @@ const AddStudent = ({ baseUrl }) => {
         name,
         email,
         course,
-        status,
         enrollmentDate,
       });
       if (response.status === 201) {
-        setShow(true);
-        setShowText("The new Student is created");
+        setShowPopup(true);
+        setPopupText("The new Student is created");
         refetch();
         navigate("/students");
       }
     } catch (err) {
-      setShowText(err.message);
-    } finally {
-      navigate("/students");
+      setShowPopup(true);
+      setPopupText(`error adding the new student: ${err.message}`);
     }
   };
 
@@ -90,7 +83,6 @@ const AddStudent = ({ baseUrl }) => {
           Add
         </button>
       </div>
-      {show && <PopupMessage popupText={showText} />}
     </form>
   );
 };

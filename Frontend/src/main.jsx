@@ -18,7 +18,7 @@ import ErrorPage from "./routes/ErrorPage.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AddStudent from "./routes/AddStudent.jsx";
 import { StudentsProvider } from "./context/StudentsContext.jsx";
-import EditStudent from "./routes/students/EditStudent.jsx";
+import EditStudent from "./routes/EditStudent.jsx";
 
 const baseUrl = `https://students-app-fullstack-backend.onrender.com/api`;
 

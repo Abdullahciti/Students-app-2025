@@ -3,10 +3,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import NavbarLg from "./NavbarLg";
 import NavbarSm from "./NavbarSm";
 import useWindowSize from "./hooks/useWindowSize";
+import PopupMessage from "./components/PopupMessage";
+import { useContext } from "react";
+import StudentsContext from "./context/StudentsContext";
 
 function App() {
   const location = useLocation();
   const { width } = useWindowSize();
+
+  const { showPopup } = useContext(StudentsContext);
 
   return (
     <AnimatePresence>
@@ -23,6 +28,7 @@ function App() {
           }`}
         >
           <Outlet />
+          {showPopup && <PopupMessage />}
         </motion.div>
       </div>
     </AnimatePresence>

@@ -1,10 +1,10 @@
 import { useEffect, useContext, useState } from "react";
-import StudentsContext from "../../context/StudentsContext";
-import useAxiosFetch from "../../hooks/useAxiosFetch";
+import StudentsContext from "../context/StudentsContext";
+import useAxiosFetch from "../hooks/useAxiosFetch";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-import PopupMessage from "../../components/PopupMessage";
-import DeleteConfirmation from "../../components/DeleteConfirmation";
+import PopupMessage from "../components/PopupMessage";
+import DeleteConfirmation from "../components/DeleteConfirmation";
 
 const EditStudent = () => {
   const { id: studentId } = useParams();
