@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import NavbarLg from "../NavbarLg";
-import NavbarSm from "./NavbarSm";
+import NavbarSm from "../NavbarSm";
 
 function ErrorPage() {
   return (
