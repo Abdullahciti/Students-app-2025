@@ -4,7 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 const morgan = require("morgan");
 const winston = require("winston");
-let uri = `mongodb+srv://abdullahciti:abdullahcitii@cluster0.dzb2b.mongodb.net/student-management-app?retryWrites=true&w=majority&appName=Cluster0`;
+let uri = `mongodb+srv://admin:admin@cluster0.dzb2b.mongodb.net/student-management-app?retryWrites=true&w=majority&appName=Cluster0`;
 
 const app = express();
 
