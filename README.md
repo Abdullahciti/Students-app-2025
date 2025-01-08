@@ -1,4 +1,5 @@
 Student-app 🌟
+
 A simple and functional Student-app built to practice and enhance my skills in React, node.js, and Rest-api. This project allows users to show, add, edit and delete students. It serves as a demonstration of modern web development techniques with a focus on interactivity, responsiveness, and state management.
 
 🚀 Features
