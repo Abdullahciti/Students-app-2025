@@ -24,26 +24,28 @@ RESTful API: Facilitates communication between frontend and backend.
 
 🔧 Installation and Setup
 Clone the Repository:
-   git clone https://github.com/Abdullahciti/Students-app-2025.git
-   cd Students-app-2025
+   ```bash
+      git clone https://github.com/Abdullahciti/Students-app-2025.git
+      cd Students-app-2025
+```
 Install Dependencies:
 
 Install frontend dependencies:
 
-  cd frontend
-  npm install
+     cd frontend
+     npm install
 Install backend dependencies:
 
-  cd backend
-  npm install
+     cd backend
+     npm install
 Start the Development Server:
 
 Run the backend:
 
-  cd backend
-  node server.js
+     cd backend
+     node server.js
 Run the frontend:
 
-  cd frontend
-  npm run dev
+     cd frontend
+     npm run dev
 Open the App: Navigate to http://localhost:5173/ 
